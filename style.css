@@ -1,0 +1,165 @@
+#wrapper{
+    width: 940px;
+    background-color: #FFD9B7;
+    margin: 0px auto;
+    padding: 20px;
+}
+    #logo{
+        min-height: 130px;
+        width: 260px;
+        background-color: #B97A57;
+        display: inline-block;
+        margin-right: 20px;
+    }
+    #navigation{
+        min-height: 130px;
+        width: 655px;
+        background-color: #FF7F27;
+        display: inline-block;
+    }
+#main_content{
+    min-height: 250px;
+    width: 860px;
+    padding: 20px 60px 20px 20px;
+    background-color: #880015;
+    margin: 20px 0;
+}
+    #about{
+        min-height: 250px;
+        width: 650px;
+        background-color: #FFAEC9;
+        display: inline-block;
+        margin-right: 50px;
+    }
+    #advertisement{
+        min-height: 200px;
+        width: 155px;
+        background-color: #C8BFE7;
+        display: inline-block;
+        vertical-align: top;
+    }
+        .sponsors{
+            min-height: 65px;
+            width: 310px;
+            background-color: #FFFF88;
+            display: inline-block;
+        }
+/* Mobile Response */
+@media only screen and (max-width: 480px){
+    #wrapper{
+        padding: 0;
+        height: 800px;
+        width: 850px;
+    }
+        #logo{
+            min-height: 100px;
+            width: 850px;
+            background-color: #B97A57;
+            display: block;
+        }
+        #navigation{
+            min-height: 100px;
+            width: 850px;
+            background-color: #FF7F27;
+            display: block;
+        }
+    #main_content{
+        width: auto;
+        min-height: 250px;
+        margin: 0;
+        position: relative;
+    }
+        #about{
+            width: 800px;
+            position: absolute;
+            left: 20px;
+        }
+        #advertisement{
+            display: none;
+        }
+    .sponsors{
+        display: block;
+        margin: 10px 0;
+        width: auto;
+    }
+}
+/* Tablet Response */
+@media only screen and (min-width: 481px){
+    #wrapper{
+        padding: 0;
+        height: 850px;
+        width: 950px;
+    }
+        #main_content{
+            width: auto;
+            height: 380px;
+            position: relative;
+        }
+            #logo{
+                min-height: 110px;
+                width: 260px;
+                margin-right: 20px;
+            }
+            #navigation{
+                min-height: 110px;
+                width: 665px;
+            }
+            #about{
+                width: 910px;
+                height: 380px;
+            }
+            #advertisement{
+                width: 0;
+                height: 0;
+                position: relative;
+            }
+        .sponsorsContainer{
+            width: 900px;
+        }
+            .sponsors{
+                margin: 10px 5px;
+            }
+}
+/* Desktop Response */
+@media only screen and (min-width: 1024px){
+    #wrapper{
+        height: 550px;
+        width: 940px;
+        margin: 0px auto;
+        padding: 20px;
+    }
+        #logo{
+            min-height: 130px;
+            width: 260px;
+            display: inline-block;
+            margin-right: 20px;
+        }
+        #navigation{
+            min-height: 130px;
+            width: 655px;
+            display: inline-block;
+        }
+    #main_content{
+    height: 0px;
+    width: 860px;
+    padding: 20px 60px 20px 20px;
+    margin: 20px 0;
+    }
+        #about{
+            height: 250px;
+            width: 650px;
+        }   
+        #advertisement{
+            height: 200px;
+            width: 155px;
+        }
+    .sponsorsContainer{
+        width: 970px;
+    }
+        .sponsors{
+            min-height: 65px;
+            width: 310px;
+            margin: 10px 0;
+            display: inline-block;
+        }
+}
